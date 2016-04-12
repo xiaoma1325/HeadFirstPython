@@ -49,7 +49,7 @@ def create_inputs(inputs_list):
         html_inputs = html_inputs+'<input type="text" name="'+each_input+'" size=40>'
     return(html_inputs)
 
-def do_form(name, the_inputs, method="POST", text="Submit"):
+def do_form(name, the_inputs, method="POST", text="Submit")
     with open('templates/form.html') as formf:
         form_text=formf.read()
     inputs = create_inputs(the_inputs)
